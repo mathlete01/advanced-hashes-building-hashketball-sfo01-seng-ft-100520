@@ -7,7 +7,9 @@ def game_hash
     {
       team_name: "Brooklyn Nets",
       colors: ["Black, White"],
-      players: [
+      players:
+      {
+        :alan_anderson =>
         {
           player_name: "Alan Anderson",
           number: 0,
@@ -19,6 +21,7 @@ def game_hash
           blocks: 1,
           slam_dunks: 1
         },
+        :reggie_evans =>
         {
           player_name: "Reggie Evans",
           number: 30,
@@ -30,6 +33,7 @@ def game_hash
           blocks: 12,
           slam_dunks: 7
         },
+        :brook_lopez =>
         {
           player_name: "Brook Lopez",
           number: 11,
@@ -41,6 +45,7 @@ def game_hash
           blocks: 1,
           slam_dunks: 15
         },
+        :mason_plumlee =>
         {
           player_name: "Mason Plumlee",
           number: 1,
@@ -52,6 +57,7 @@ def game_hash
           blocks: 8,
           slam_dunks: 5
         },
+        :jason_terry =>
         {
           player_name: "Jason Terry",
           number: 31,
@@ -63,13 +69,15 @@ def game_hash
           blocks: 11,
           slam_dunks: 1
         }
-      ]
+      }
     },
     away:
     {
       team_name: "Charlotte Hornets",
       colors: ["Turquoise, Purple"],
-      players: [
+      players:
+      {
+        :jeff_adrien =>
         {
           player_name: "Jeff Adrien",
           number: 4,
@@ -81,6 +89,7 @@ def game_hash
           blocks: 7,
           slam_dunks: 2
         },
+        :bismack_biyombo =>
         {
           player_name: "Bismack Biyombo",
           number: 0,
@@ -92,6 +101,7 @@ def game_hash
           blocks: 15,
           slam_dunks: 10
         },
+        :desagna_diop =>
         {
           player_name: "DeSagna Diop",
           number: 2,
@@ -103,6 +113,7 @@ def game_hash
           blocks: 5,
           slam_dunks: 5
         },
+        :ben_gordon =>
         {
           player_name: "Ben Gordon",
           number: 8,
@@ -114,8 +125,9 @@ def game_hash
           blocks: 1,
           slam_dunks: 0
         },
+      :kembra_walker =>
       {
-        player_name: "Kemba Walker",
+        player_name: "Kembra Walker",
         number: 33,
         shoe: 15,
         points: 6,
@@ -125,7 +137,7 @@ def game_hash
         blocks: 5,
         slam_dunks: 12
       }
-    ]
+    }
   }
 }
 end
