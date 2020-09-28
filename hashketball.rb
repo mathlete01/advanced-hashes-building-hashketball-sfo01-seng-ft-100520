@@ -1,4 +1,5 @@
 require 'pry'
+require 'pp'
 
 def game_hash
   #binding.pry
@@ -129,3 +130,5 @@ def game_hash
   }
 }
 end
+
+pp game_hash
